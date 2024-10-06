@@ -1,0 +1,39 @@
+.container {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  background-color: #f0e4a0ec;
+  border-radius: 12px;
+  box-shadow: 0 6px 30px rgba(0.1, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 2.8rem;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.paragraph {
+  font-size: 1.2rem;
+  color: hsl(229, 87%, 42%);
+  line-height: 1.8;
+  margin: 20px 0;
+}
+
+.highlight {
+  color: #e74c3c; 
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.2rem;
+  }
+
+  .paragraph {
+    font-size: 1rem;
+  }
+}

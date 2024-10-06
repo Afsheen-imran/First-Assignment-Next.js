@@ -1,0 +1,29 @@
+
+.container {
+    padding: 40px;
+    min-height: calc(100vh - 60px); 
+    background-color: #f8d7da; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    color: #dc3545; 
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.8;
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  

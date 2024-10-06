@@ -1,0 +1,57 @@
+/* /app/styles/Service.module.css */
+.container {
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #1782ee;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #34495e;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.serviceList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.serviceCard {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-decoration: none;
+  color: #2c3e50;
+}
+
+.serviceCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.serviceTitle {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #e63946; /* A vibrant color for service titles */
+}
+
+.serviceDescription {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
