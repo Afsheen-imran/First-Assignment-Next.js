@@ -1,5 +1,5 @@
 
-import Image from 'next/image';
+
 import styles from '@/app/styles/VideoEditing.module.css'; 
 
 const VideoEditing = () => {
@@ -8,7 +8,7 @@ const VideoEditing = () => {
       <h2 className={styles.title}>Video Editing Services</h2>
      
       <p className={styles.description}>
-        In a world where visual storytelling is crucial, our Video Editing Services at Digitech are designed to help you create compelling and engaging video content. Whether you're looking to produce promotional videos, tutorials, or social media clips, we’ve got you covered.
+        In a world where visual storytelling is crucial, our Video Editing Services at Digitech are designed to help you create compelling and engaging video content. Whether you're looking to produce promotional videos, tutorials, or social media clips, we have got you covered.
       </p>
       <p className={styles.paragraph}>
         Our team of skilled editors uses the latest technology and techniques to transform your raw footage into polished and professional videos. We focus on enhancing your content through effective editing, sound design, and visual effects that resonate with your audience.

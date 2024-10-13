@@ -1,4 +1,4 @@
-// /app/services/social-media/page.js
+
 import React from 'react';
 import styles from '@/app/styles/SocialMedia.module.css'; 
 
@@ -7,7 +7,7 @@ const SocialMedia = () => {
     <section className={styles.container}>
       <h2 className={styles.title}>Social Media Marketing Services</h2>
       <p className={styles.description}>
-        In today's digital world, social media is a powerful tool for connecting with your audience and building brand awareness. At Digitech, we offer comprehensive social media marketing services designed to enhance your online presence and engage your target market effectively.
+        In digital world, social media is a powerful tool for connecting with your audience and building brand awareness. At Digitech, we offer comprehensive social media marketing services designed to enhance your online presence and engage your target market effectively.
       </p>
       <p className={styles.paragraph}>
         Our experienced team develops tailored strategies that align with your business goals. We create engaging content, manage your social media profiles, and interact with your audience to foster a strong community around your brand. 

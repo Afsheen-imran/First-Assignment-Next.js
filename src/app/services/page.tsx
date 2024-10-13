@@ -19,13 +19,13 @@ const Services = () => {
         <Link href="/services/graphic-design" className={styles.serviceCard}>
           <h3 className={styles.serviceTitle}>Graphic Designing</h3>
           <p className={styles.serviceDescription}>
-            Create stunning visuals that communicate your brand's message effectively.
+            Create stunning visuals that communicate your brands message effectively.
           </p>
         </Link>
         <Link href="/services/social-media" className={styles.serviceCard}>
           <h3 className={styles.serviceTitle}>Social Media Marketing</h3>
           <p className={styles.serviceDescription}>
-            Build your brand’s online presence and engage your audience through strategic campaigns.
+            Build your brands online presence and engage your audience through strategic campaigns.
           </p>
         </Link>
         <Link href="/services/video-editing" className={styles.serviceCard}>

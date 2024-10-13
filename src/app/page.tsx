@@ -1,7 +1,9 @@
-
-
 import Image from 'next/image';
 import styles from '@/app/styles/Home.module.css';
+import MyImage from "./public/images/graphic-design.jpeg";
+import SeoImage from "./public/images/seo.jpeg";
+import SocialImage from "./public/images/social-media.jpeg";
+import VideoImage from "./public/images/video-editing.jpeg";
 
 const Home = () => {
   return (
@@ -12,10 +14,10 @@ const Home = () => {
       </p>
       <div className={styles.services}>
         <div className={styles.serviceCard}>
-        <Image
+          <Image
               className="object-cover object-center rounded mx-auto w-[300px] h-[400px]"
               alt="Search Engine Optimization"
-              src={require("./public/images/seo.jpeg")}
+              src={SeoImage} 
               width={300}
               height={500}
           />
@@ -25,12 +27,12 @@ const Home = () => {
           </p>
         </div>
         <div className={styles.serviceCard}>
-         <Image
+          <Image
               className="object-cover object-center rounded mx-auto w-[300px] h-[400px]"
               alt="Graphic Designing"
-              src={require("./public/images/graphic-design.jpeg")}
+              src={MyImage}
               width={300}
-                height={500}
+              height={500}
           />
           <h3 className={styles.serviceTitle}>Graphic Designing</h3>
           <p className={styles.serviceDescription}>
@@ -38,10 +40,10 @@ const Home = () => {
           </p>
         </div>
         <div className={styles.serviceCard}>
-         <Image
+          <Image
               className="object-cover object-center rounded mx-auto w-[300px] h-[400px]"
               alt="Social Media Marketing"
-              src={require("./public/images/social-media.jpeg")}
+              src={SocialImage}
               width={300}
               height={500}
           /> 
@@ -51,10 +53,10 @@ const Home = () => {
           </p>
         </div>
         <div className={styles.serviceCard}>
-         <Image
+          <Image
               className="object-cover object-center rounded mx-auto w-[300px] h-[400px]"
-              alt="Video Editing"
-              src={require("./public/images/video-editing.jpeg")}
+              alt= "Search Engine Optimization"
+              src={VideoImage}
               width={300}
               height={500}
           /> 

@@ -1,4 +1,4 @@
-// /app/components/Navbar.js
+
 import React from 'react';
 import Link from 'next/link';
 import styles from '@/app/styles/Navbar.module.css'; 
