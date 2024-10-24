@@ -43,7 +43,7 @@ const Navbar = () => {
               <SheetTitle>Menu</SheetTitle>
             </SheetHeader>
             <SheetDescription>
-              <ul className={styles.navLinks}>
+              <ul className={styles.mobileNavLinks}>
                 <li>
                   <Link href="/" className={styles.link}>Home</Link>
                 </li>

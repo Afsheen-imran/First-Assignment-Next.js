@@ -22,8 +22,8 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex; 
-  margin-left: auto; 
+  display: flex; /* Default for larger screens */
+  margin-left: auto; /* Aligns the nav links to the left */
 }
 
 .navLinks li {
@@ -37,24 +37,30 @@
 
 /* Toggle button styles */
 .toggleButton {
-  display: none; 
+  display: none; /* Hidden by default */
   cursor: pointer;
 }
 
 /* Responsive Styles */
 @media (max-width: 768px) {
   .navLinks {
-    display: none; 
-  }
-
-  .toggleButton {
-    display: block; 
-    margin-left: auto;
-  }
-
-  
-  .SheetContent {
-    display: flex; 
-    flex-direction: column; 
+    display: none; /* Hide links by default on mobile */
   }
 }
+
+  @media (max-width: 768px) {
+    .navLinks {
+      display: block;
+    }
+  }
+  .toggleButton {
+    display: block; /* Show toggle button on mobile */
+    margin-left: auto; /* Aligns the toggle button to the right */
+  }
+
+  /* When the Sheet is open, links will be shown inside it */
+  .SheetContent {
+    display: flex; /* Ensure that the content is displayed */
+    flex-direction: column; /* Stack links vertically */
+  }
+
