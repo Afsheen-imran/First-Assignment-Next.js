@@ -1,36 +1,60 @@
-/* /app/styles/Navbar.module.css */
 .header {
-    background-color: #c62828; /* Red color */
-    padding: 1rem 0; /* Vertical padding */
-  }
-  
-  .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1.5rem; /* Horizontal padding */
-  }
-  
-  .logo {
-    font-size: 1.5rem;
-    color: white; /* Logo color */
-  }
-  
+  background-color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navLinks {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; 
+  margin-left: auto; 
+}
+
+.navLinks li {
+  margin: 0 1rem; /* Spacing between links */
+}
+
+.link {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Toggle button styles */
+.toggleButton {
+  display: none; 
+  cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
   .navLinks {
-    display: flex;
-    gap: 1.25rem; 
-    list-style: none; 
-    margin: 0; 
-    padding: 0; 
+    display: none; 
   }
-  
-  .link {
-    color: white; 
-    text-decoration: underline; 
-    transition: color 0.3s; 
+
+  .toggleButton {
+    display: block; 
+    margin-left: auto;
   }
+
   
-  .link:hover {
-    color: rgb(236, 204, 22);
+  .SheetContent {
+    display: flex; 
+    flex-direction: column; 
   }
-  
+}

@@ -1,6 +1,5 @@
-// /app/services/page.js
 import Link from 'next/link';
-import styles from '@/app/styles/Services.module.css'; 
+import styles from '../styles/Services.module.css';
 
 const Services = () => {
   return (
@@ -19,13 +18,13 @@ const Services = () => {
         <Link href="/services/graphic-design" className={styles.serviceCard}>
           <h3 className={styles.serviceTitle}>Graphic Designing</h3>
           <p className={styles.serviceDescription}>
-            Create stunning visuals that communicate your brands message effectively.
+            Create stunning visuals that communicate your messages effectively.
           </p>
         </Link>
         <Link href="/services/social-media" className={styles.serviceCard}>
           <h3 className={styles.serviceTitle}>Social Media Marketing</h3>
           <p className={styles.serviceDescription}>
-            Build your brands online presence and engage your audience through strategic campaigns.
+            Build oline presecence of your brand and engage your audience through strategic campaigns.
           </p>
         </Link>
         <Link href="/services/video-editing" className={styles.serviceCard}>
